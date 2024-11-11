@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const EmployerAnalyticsSection = () => {
     return (
-        <div className="w-full  h-auto flex justify-center  ">
+        <div className="w-full  h-auto flex justify-center items-center">
             <div className="w-2/3 h-full flex  gap-40">
                 <div className="w-3/6 flex items-center">
                     <Image src="/Images/AnalyticsCvrImg.svg" alt="GFG logo imported from public directory" width={1000} height={1000} className="relative -top-10" />

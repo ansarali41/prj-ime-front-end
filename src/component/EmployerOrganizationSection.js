@@ -22,8 +22,14 @@ const EmployerOrganizationSection = () => {
                         Enquire Now <GoArrowRight className="w-6 h-8" />
                     </button>
                 </div>
-                <div className="w-1/2 flex justify-center items-center relative left-4">
-                    <Image src="/Images/ManagementDashboard.svg" alt="GFG logo imported from public directory" width={100} height={100} className="w-[40.125rem] h-[28.563rem]" />
+                <div className="w-1/2 flex justify-center items-center relative right-8">
+                    <Image
+                        src="/Images/ManagementDashboard.svg"
+                        alt="GFG logo imported from public directory"
+                        width={100}
+                        height={100}
+                        className="w-[50.125rem] h-[28.563rem] absolute"
+                    />
                     <Image
                         src="/Images/AddemployeeForm.svg"
                         alt="GFG logo imported from public directory"
@@ -36,7 +42,7 @@ const EmployerOrganizationSection = () => {
                         alt="GFG logo imported from public directory"
                         width={100}
                         height={100}
-                        className="w-[20.813rem] h-[8.188rem] absolute -top-16 right-4 z-10"
+                        className="w-[20.813rem] h-[8.188rem] absolute -top-16 right-[-25px] z-10"
                     />
                 </div>
             </div>

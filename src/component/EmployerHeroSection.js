@@ -48,8 +48,8 @@ const EmployerHeroSection = () => {
                 </div>
             </div>
 
-            <div className="lg:absolute lg:right-0 lg:w-5/12 mt-8 lg:mt-0">
-                <Image src="/Images/EmployerCvrImg.svg" alt="Employer dashboard illustration" width={800} height={800} className="w-full h-auto object-contain" priority />
+            <div className="lg:absolute lg:right-0 lg:w-7/12 mt-8 lg:mt-0">
+                <Image src="/Images/EmployerCvrImg.svg" alt="Employer dashboard illustration" width={1000} height={800} className="w-full h-auto object-contain" priority />
             </div>
         </div>
     );

@@ -14,7 +14,7 @@ const EmployerESGSection = () => {
                         a healthy, balanced workplace, the platform assists firms in demonstrating a commitment to social responsibility and long-term employee care.
                     </p>
                 </div>
-                <div className="w-1/2 flex items-center relative top-10">
+                <div className="w-1/2 flex items-center justify-center relative top-10">
                     <Image src="/Images/ESGCvrImg.svg" alt="ESG and CSRD alignment illustration" width={1000} height={1000} className="relative -top-10" priority />
                 </div>
             </div>

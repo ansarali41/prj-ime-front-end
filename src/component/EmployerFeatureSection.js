@@ -4,7 +4,7 @@ import React from 'react';
 const EmployerFeatureSection = () => {
     return (
         <>
-            <div className="w-full  flex flex-col items-center py-16 gap-4 ">
+            <div className="w-full  flex flex-col items-center py-16 gap-4 mt-10">
                 <h1 className="text-[3.125rem] font-semibold text-center">Key Features</h1>
                 <p className="text-xl font-medium text-center w-2/3">
                     Our platform delivers personalized well-being support for employees while giving organizations real-time insights into productivity and <br />

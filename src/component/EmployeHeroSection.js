@@ -21,9 +21,9 @@ const EmployeHeroSection = () => {
 
     return (
         <div className="w-full max-w-[1440px] mx-auto px-8 lg:px-32 h-auto flex flex-col lg:flex-row justify-between py-2">
-            <div className="w-full lg:w-6/12 h-auto flex justify-start lg:justify-end gap-8 lg:pr-16 py-10 lg:py-20">
+            <div className="w-full lg:w-8/12 h-auto flex justify-start lg:justify-end gap-8 lg:pr-16 py-10 lg:py-20">
                 <div className="flex flex-col gap-8 lg:gap-10 max-w-xl">
-                    <h1 className="font-semibold text-4xl lg:text-[5rem] leading-tight lg:leading-none">
+                    <h1 className="font-semibold text-4xl lg:text-5xl leading-tight">
                         Improving Employee
                         <span className="bg-text-gradient bg-clip-text text-transparent"> Well-being</span>
                     </h1>
@@ -41,7 +41,7 @@ const EmployeHeroSection = () => {
                 </div>
             </div>
 
-            <div className="w-full lg:w-auto mt-8 lg:mt-0">
+            <div className="w-full lg:w-auto relative top-[-100px]">
                 <Image
                     src="/Images/employeMobImg.svg"
                     alt="Employee Well-being Illustration"
