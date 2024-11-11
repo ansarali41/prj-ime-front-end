@@ -19,21 +19,21 @@ const HeroSection = () => {
         dispatch(setEnquiryModal(true));
     };
     return (
-        <div className="w-full px-32 h-auto flex justify-between py-8">
-            <div className="w-6/12 h-auto flex justify-end gap-8 pr-16">
-                <div className="flex flex-col gap-6">
-                    <h1 className="font-semibold text-[5rem] leading-none ">
-                        Improve your company’s well-being with
+        <div className="w-full px-16 lg:px-24 h-auto flex justify-between py-6">
+            <div className="w-7/12 h-auto flex justify-end gap-6 pr-8">
+                <div className="flex flex-col gap-4">
+                    <h1 className="font-semibold text-4xl lg:text-5xl leading-tight">
+                        Improve your company&apos;s well-being with
                         <span className="bg-text-gradient bg-clip-text text-transparent"> iMe!</span>
                     </h1>
-                    <p className="font-normal text-base leading-[28px]">
-                        Workplace well-being gaps are quietly undermining your organization’s growth. Poor employee lifestyle choices contribute to almost $2 trillion in annual
-                        losses from work-related stress, low productivity, and missed days due to chronic conditions. When employees struggle with stress, lack of work-life
+                    <p className="font-normal text-sm lg:text-base leading-relaxed">
+                        Workplace well-being gaps are quietly undermining your organization&apos;s growth. Poor employee lifestyle choices contribute to almost $2 trillion in
+                        annual losses from work-related stress, low productivity, and missed days due to chronic conditions. When employees struggle with stress, lack of work-life
                         balance, or personal well-being challenges, productivity drops and turnover rises.
                         <br /> Many organizations invest significant effort into well-being initiatives but find it challenging to establish strategies that genuinely support both
-                        individual well-being and long-term sustainability goals. <br /> <br /> iMe’s AI-driven platform transforms well-being by providing real-time, personalized
-                        insights that help teams maintain energy, focus, and well-being. With iMe, organizations can elevate their well-being initiatives, demonstrating their
-                        commitment to a balanced, productive work environment.
+                        individual well-being and long-term sustainability goals. <br /> <br /> iMe&apos;s AI-driven platform transforms well-being by providing real-time,
+                        personalized insights that help teams maintain energy, focus, and well-being. With iMe, organizations can elevate their well-being initiatives,
+                        demonstrating their commitment to a balanced, productive work environment.
                     </p>
                     <form onSubmit={handleSubmit(onSubmit)} className="w-[27rem] pl-6 p-2.5 flex border border-[#E1E1E1] justify-between items-center rounded-[1.25rem]">
                         <input {...register('email', { required: true })} type="text" placeholder="Enter Your Email ..." className="outline-none" />
@@ -43,8 +43,8 @@ const HeroSection = () => {
                     </form>
                 </div>
             </div>
-            <div className="absolute right-0 ">
-                <Image src="/Images/Leaderboard.svg" alt="GFG logo imported from public directory" width={100} height={100} className="w-full h-full " />
+            <div className="absolute right-0 w-5/12">
+                <Image src="/Images/Leaderboard.svg" alt="GFG logo imported from public directory" width={600} height={600} className="w-full h-auto" />
             </div>
         </div>
     );
