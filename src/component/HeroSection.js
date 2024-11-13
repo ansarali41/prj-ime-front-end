@@ -20,13 +20,14 @@ const HeroSection = () => {
     };
     return (
         <div className="w-full px-16 lg:px-24 h-auto flex justify-between py-6">
-            <div className="w-7/12 h-auto flex justify-end gap-6 pr-8">
+            <div className="w-6/12 h-auto flex justify-end gap-6 pr-10">
                 <div className="flex flex-col gap-4">
-                    <h1 className="font-semibold text-4xl lg:text-5xl leading-tight">
+                    <h1 className="font-clash-display font-semibold text-[80px] leading-[85px]">
                         Improve your company&apos;s well-being with
                         <span className="bg-text-gradient bg-clip-text text-transparent"> iMe!</span>
                     </h1>
-                    <p className="font-normal text-sm lg:text-base leading-relaxed">
+
+                    <p className="font-normal text-lg leading-[28px] text-left">
                         Workplace well-being gaps are quietly undermining your organization&apos;s growth. Poor employee lifestyle choices contribute to almost $2 trillion in
                         annual losses from work-related stress, low productivity, and missed days due to chronic conditions. When employees struggle with stress, lack of work-life
                         balance, or personal well-being challenges, productivity drops and turnover rises.
@@ -43,7 +44,7 @@ const HeroSection = () => {
                     </form>
                 </div>
             </div>
-            <div className="absolute right-0 w-5/12">
+            <div className="absolute right-0 w-6/12">
                 <Image src="/Images/Leaderboard.svg" alt="GFG logo imported from public directory" width={600} height={600} className="w-full h-auto" />
             </div>
         </div>
