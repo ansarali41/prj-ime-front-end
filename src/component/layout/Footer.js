@@ -10,13 +10,13 @@ const Footer = () => {
     const options = [
         {
             id: 1,
-            label: 'Employer',
+            label: 'For Employer',
             value: 'Employer',
             action: () => router.push('/solution/employer'),
         },
         {
             id: 2,
-            label: 'Employee',
+            label: 'For Employee',
             value: 'Employee',
             action: () => router.push('/solution/employee'),
         },
@@ -34,7 +34,7 @@ const Footer = () => {
                 <div className="w-full px-32 h-full flex justify-between relative ">
                     <div className="flex justify-center items-center gap-4">
                         <DropDown
-                            button={<div className="text-black font-semibold text-lg cursor-pointer uppercase">Solution</div>}
+                            button={<h2 className="text-black font-semibold text-lg cursor-pointer uppercase">Solution</h2>}
                             options={options}
                             direction="bottom-10 left-0 origin-bottom-left"
                         />
@@ -42,7 +42,7 @@ const Footer = () => {
                     <Link href="/" className=" flex items-center">
                         <Image src="/Images/Logo.svg" alt="GFG logo imported from public directory" width={100} height={100} className="w-[8.5rem] h-[3.25rem] " />
                     </Link>
-                    <div onClick={scrollToTop} className="absolute bottom-6 right-8 flex justify-center items-center gap-4 cursor-pointer">
+                    <div onClick={scrollToTop} className="absolute bottom-28 right-32 flex justify-center items-center gap-4 cursor-pointer">
                         <p className="text-[#454552]">Back-top</p>
                         <div className="h-9 w-9 rounded-full bg-[#B0208C] flex justify-center items-center text-white">
                             <FaAngleDoubleUp />

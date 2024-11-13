@@ -14,25 +14,30 @@ const Header = () => {
     const options = [
         {
             id: 1,
-            label: 'Employer',
+            label: 'For Employer',
             value: 'Employer',
             action: () => router.push('/solution/employer'),
         },
         {
             id: 2,
-            label: 'Employee',
+            label: 'For Employee',
             value: 'Employee',
             action: () => router.push('/solution/employee'),
         },
     ];
     return (
         <div className="w-full h-[5.75rem] py-4 flex flex-col items-center border-b border-[rgba(0,0,0,0.2)]">
-            <div className="w-full max-w-[1440px] mx-auto px-8 lg:px-32 h-full flex justify-between ">
-                <Link href="/" className="w-1/4 flex items-center">
+            <div className="w-full max-w-[1920px] mx-auto px-8 lg:px-24 h-full flex justify-between ">
+                <Link href="/" className="w-1/12 flex items-center">
                     <Image src="/Images/Logo.svg" alt="GFG logo imported from public directory" width={100} height={100} className="w-[8.5rem] h-[3.25rem] " />
                 </Link>
 
-                <div className="hidden lg:flex w-[30.5rem] justify-center items-center gap-14 font-notoSans">
+                <div className="hidden w-5/12 lg:flex  justify-start items-center gap-14 font-notoSans">
+                    <DropDown
+                        button={<h2 className="text-black font-semibold text-lg cursor-pointer uppercase">Solution</h2>}
+                        options={options}
+                        direction="top-8 right-0 origin-top-right"
+                    />
                     {/* <Link
             href=''
             className='text-black font-semibold text-lg cursor-pointer uppercase'>
@@ -55,11 +60,11 @@ const Header = () => {
           </Link> */}
                 </div>
                 <div className="flex justify-center items-center gap-4">
-                    <DropDown
-                        button={<div className="text-black font-semibold text-lg cursor-pointer uppercase">Solution</div>}
+                    {/* <DropDown
+                        button={<h2 className="text-black font-semibold text-lg cursor-pointer uppercase">Solution</h2>}
                         options={options}
                         direction="top-8 right-0 origin-top-right"
-                    />
+                    /> */}
 
                     <button
                         onClick={() => dispatch(setEnquiryModal(true))}
