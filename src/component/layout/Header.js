@@ -32,7 +32,7 @@ const Header = () => {
                     <Image src="/Images/Logo.svg" alt="GFG logo imported from public directory" width={100} height={100} className="w-[8.5rem] h-[3.25rem] " />
                 </Link>
 
-                <div className="hidden w-5/12 lg:flex  justify-start items-center gap-14 font-notoSans">
+                <div className="w-5/12 flex  justify-start items-center gap-14 font-notoSans">
                     <DropDown
                         button={<h2 className="text-black font-semibold text-lg cursor-pointer uppercase">Solution</h2>}
                         options={options}
