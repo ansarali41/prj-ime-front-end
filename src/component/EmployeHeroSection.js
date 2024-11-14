@@ -20,15 +20,16 @@ const EmployeHeroSection = () => {
     };
 
     return (
-        <div className="w-full max-w-[1440px] mx-auto px-8 lg:px-32 h-auto flex flex-col lg:flex-row justify-between py-2">
-            <div className="w-full lg:w-8/12 h-auto flex justify-start lg:justify-end gap-8 lg:pr-16 py-10 lg:py-20">
-                <div className="flex flex-col gap-8 lg:gap-10 max-w-xl">
-                    <h1 className="font-semibold text-4xl lg:text-5xl leading-tight">
+        <div className="w-full px-16 lg:px-24 h-auto flex justify-between py-6">
+            <div className="w-6/12 h-auto flex justify-end gap-6 pt-24">
+                <div className="flex flex-col gap-4">
+                    <h1 className="font-clash-display font-semibold text-[80px] leading-[85px]">
                         Improving Employee
                         <span className="bg-text-gradient bg-clip-text text-transparent"> Well-being</span>
                     </h1>
-                    <p className="font-normal text-base leading-[28px]">
-                        iMe&apos;s platform integrates seamlessly into daily work routines, delivering real-time well-being insights and personalized activities that foster healthy
+
+                    <p className="font-normal text-lg leading-[28px] mb-3">
+                        iMe’s platform integrates seamlessly into daily work routines, delivering real-time well-being insights and personalized activities that foster healthy
                         habits, reduce stress, and enhance productivity. By cultivating a well-being-focused workplace, iMe supports individual well-being while helping
                         organizations meet their sustainability goals.
                     </p>
@@ -41,15 +42,8 @@ const EmployeHeroSection = () => {
                 </div>
             </div>
 
-            <div className="w-full lg:w-auto relative top-[-100px]">
-                <Image
-                    src="/Images/employeMobImg.svg"
-                    alt="Employee Well-being Illustration"
-                    width={843}
-                    height={856}
-                    className="w-full lg:w-[52.688rem] h-auto lg:h-[53.5rem] object-contain"
-                    priority
-                />
+            <div className="-mr-20 w-6/12">
+                <Image src="/Images/employeMobImg.svg" alt="Employee Well-being Illustration" width={843} height={856} className="w-full h-auto object-contain" priority />
             </div>
         </div>
     );
