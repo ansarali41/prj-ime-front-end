@@ -7,7 +7,7 @@ import { setEnquiryModal } from '@/redux/appSlice';
 const EmployeOrganizationSection = () => {
     const dispatch = useDispatch();
     return (
-        <div className="w-full  h-auto flex justify-center  pt-48">
+        <div className="w-full  h-auto flex justify-center  pt-48 mb-48 lg:mb-60">
             <div className="w-3/4 h-[25rem] rounded-[2.5rem] flex  gap-8  bg-theme-gradient ">
                 <div className="w-6/12 flex flex-col p-10 gap-8 relative bg-[url('/Images/map-bg.png')] bg-cover bg-no-repeat">
                     <h1 className="text-[60px] font-semibold leading-[73.8px] text-white">
