@@ -4,10 +4,10 @@ import { GoArrowRight } from 'react-icons/go';
 const AboutMeSection = () => {
     return (
         <div className="w-full max-w-[1440px] h-auto mx-auto mt-32 px-12 flex justify-between items-center gap-8">
-            <div className="w-1/2">
+            <div className="w-5/12">
                 <Image src="/Images/AboutiMeSection.png" alt="About iMe Section" width={800} height={900} className="w-full h-auto object-contain" priority />
             </div>
-            <div className="w-1/2">
+            <div className="w-7/12">
                 <h1 className="text-[70px] font-semibold leading-[70px]">About iMe</h1>
                 <p className="text-[18px] font-normal leading-[28px] mt-6">
                     iMe is an AI-powered platform designed to support organizational well-being through an innovative and privacy-focused solution. Our mission is to enhance
@@ -29,6 +29,7 @@ const AboutMeSection = () => {
                                 size: 38,
                                 content: 'Good Health and Well-being',
                                 description: 'Promoting mental and physical wellness in the workplace.',
+                                hoverClass: 'hover:bg-[#4ca146]',
                             },
                             {
                                 title: 'SDG 8',
@@ -36,6 +37,7 @@ const AboutMeSection = () => {
                                 size: 28,
                                 content: 'Decent Work and Economic Growth',
                                 description: 'Supporting a safe, inclusive, and productive work environment.',
+                                hoverClass: 'hover:bg-[#a31c44]',
                             },
                             {
                                 title: 'SDG 9',
@@ -43,12 +45,13 @@ const AboutMeSection = () => {
                                 size: 28,
                                 content: 'Industry, Innovation, and Infrastructure',
                                 description: 'Leveraging advanced technology to build resilient workplace wellness solutions.',
+                                hoverClass: 'hover:bg-[#f26a2e]',
                             },
                         ].map((sdg, index) => (
-                            <div key={index} className="border border-gray-300 rounded-lg p-4 h-auto">
+                            <div key={index} className={`group border border-gray-300 rounded-lg p-4 h-auto ${sdg.hoverClass} hover:text-white`}>
                                 <div className="flex justify-between items-center">
                                     <h2 className="font-bold">{sdg.title}</h2>
-                                    <Image src={sdg.icon} alt={sdg.title} width={sdg.size} height={sdg.size} />
+                                    <Image src={sdg.icon} alt={sdg.title} width={sdg.size} height={sdg.size} className="group-hover:brightness-0 group-hover:invert" />
                                 </div>
                                 <p className="mt-4 text-sm lg:text-base">
                                     <span className="font-bold">{sdg.content} </span>–{sdg.description}
