@@ -5,7 +5,17 @@ const AboutMeSection = () => {
     return (
         <div className="w-full max-w-[1440px] h-auto mx-auto mt-32 px-12 flex justify-between items-center gap-8">
             <div className="w-5/12">
-                <Image src="/Images/AboutiMeSection.png" alt="About iMe Section" width={800} height={900} className="w-full h-auto object-contain" priority />
+                <Image
+                    src="/Images/OBJECT.svg"
+                    alt="About iMe Section"
+                    width={0}
+                    height={0}
+                    sizes="(max-width: 768px) 100vw, 41.666667vw"
+                    className="w-full h-auto object-contain"
+                    style={{ width: '100%', height: 'auto' }}
+                    priority
+                    quality={100}
+                />
             </div>
             <div className="w-7/12">
                 <h1 className="text-[70px] font-semibold leading-[70px]">About iMe</h1>

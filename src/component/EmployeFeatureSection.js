@@ -15,19 +15,46 @@ const EmployeFeatureSection = () => {
                     </p>
                     <div className="h-[10.25rem] flex justify-between items-center pt-4">
                         <div className="w-1/3 h-full flex flex-col justify-center items-center gap-4 text-center">
-                            <Image src="/Images/AIicon.svg" alt="GFG logo imported from public directory" width={100} height={100} className="w-20 h-20" />
+                            <Image
+                                src="/Images/AIicon.svg"
+                                alt="AI Coach Icon"
+                                width={0}
+                                height={0}
+                                sizes="80px"
+                                className="w-20 h-20"
+                                style={{ width: '80px', height: '80px' }}
+                                quality={100}
+                            />
                             <h1 className="text-[2rem] font-medium w-full text-center leading-8">
                                 Context-aware <br /> AI Coach
                             </h1>
                         </div>
                         <div className="w-1/3 h-full flex flex-col justify-center items-center gap-4 text-center">
-                            <Image src="/Images/productivityIcon.svg" alt="GFG logo imported from public directory" width={100} height={100} className="w-20 h-20" />
+                            <Image
+                                src="/Images/productivityIcon.svg"
+                                alt="Boosted Productivity Icon"
+                                width={0}
+                                height={0}
+                                sizes="80px"
+                                className="w-20 h-20"
+                                style={{ width: '80px', height: '80px' }}
+                                quality={100}
+                            />
                             <h1 className="text-[2rem] font-medium w-full text-center leading-8">
                                 Boosted <br /> Productivity
                             </h1>
                         </div>
                         <div className="w-1/3 h-full flex flex-col justify-center items-center gap-4 text-center">
-                            <Image src="/Images/gamificationIcon.svg" alt="GFG logo imported from public directory" width={100} height={100} className="w-20 h-20" />
+                            <Image
+                                src="/Images/gamificationIcon.svg"
+                                alt="Gamification & Incentivization Icon"
+                                width={0}
+                                height={0}
+                                sizes="80px"
+                                className="w-20 h-20"
+                                style={{ width: '80px', height: '80px' }}
+                                quality={100}
+                            />
                             <h1 className="text-[2rem] font-medium w-full text-center leading-8">Gamification & Incentivization</h1>
                         </div>
                     </div>

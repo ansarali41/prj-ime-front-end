@@ -16,7 +16,7 @@ const ApproachSection = () => {
                 </p>
             </div>
             <div className="w-1/2">
-                <Image src="/Images/ApprochSection.png" alt="Approach Section" width={800} height={660} className="w-full h-auto object-contain" priority />
+                <Image src="/Images/Multi-Devices-Mockup.svg" alt="Approach Section" width={0} height={0} sizes="100%" className="w-full h-auto object-contain" priority />
             </div>
         </div>
     );

@@ -21,10 +21,13 @@ const EmployeContextSection = () => {
                     <Image
                         src="/Images/contextCvrImg.svg"
                         alt="Context-aware AI Coach Illustration"
-                        width={522}
-                        height={500}
+                        width={0}
+                        height={0}
+                        sizes="100%"
                         className="w-full lg:max-w-[550px] h-auto object-contain"
+                        style={{ width: '100%', height: 'auto' }}
                         priority
+                        quality={100}
                     />
                 </div>
             </div>

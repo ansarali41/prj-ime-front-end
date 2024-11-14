@@ -5,7 +5,7 @@ import { FaLongArrowAltRight } from 'react-icons/fa';
 const BlogCard = ({ image, title, description }) => (
     <div className="w-full max-w-[370px] bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow">
         <div className="aspect-[4/3] relative overflow-hidden rounded-lg">
-            <Image src={image} alt={title} width={400} height={300} className="w-full h-full object-cover" />
+            <Image src={image} alt={title} width={0} height={0} sizes="100%" className="w-full h-full object-cover" />
         </div>
         <h2 className="text-[24px] font-medium leading-[29.52px] mt-4 line-clamp-2">{title}</h2>
         <p className="text-[14px] font-normal leading-[16.8px] font-lato text-gray-600 line-clamp-2 mt-3">{description}</p>
@@ -18,19 +18,19 @@ const BlogCard = ({ image, title, description }) => (
 const BlogSection = () => {
     const blogs = [
         {
-            image: '/Images/blogPost1.png',
+            image: '/Images/blog-1.svg',
             title: 'How AI is revolutionizing employee well-being.',
             description:
                 'AI is revolutionizing employee well-being by enhancing both physical and mental health support through data-driven insights and personalized interventions.',
         },
         {
-            image: '/Images/blogPost2.png',
+            image: '/Images/blog-2.svg',
             title: 'What is CSRD and why it matters for your business.',
             description:
                 'The corporate sustainability reporting directive (CSRD) is a new European union regulation that requires companies to provide detailed reports on their environmental, social, and governance (ESG) impacts.',
         },
         {
-            image: '/Images/blogPost3.png',
+            image: '/Images/blog-3.svg',
             title: 'Work-life balance tips for the modern worker.',
             description: "Work-life balance is crucial for maintaining both personal well-being and professional productivity in today's fast-paced world.",
         },

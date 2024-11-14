@@ -43,7 +43,17 @@ const EmployeHeroSection = () => {
             </div>
 
             <div className="-mr-20 w-6/12">
-                <Image src="/Images/employeMobImg.svg" alt="Employee Well-being Illustration" width={843} height={856} className="w-full h-auto object-contain" priority />
+                <Image
+                    src="/Images/employeMobImg.svg"
+                    alt="Employee Well-being Illustration"
+                    width={0}
+                    height={0}
+                    sizes="100%"
+                    className="w-full h-auto object-contain"
+                    style={{ width: '100%', height: 'auto' }}
+                    priority
+                    quality={100}
+                />
             </div>
         </div>
     );

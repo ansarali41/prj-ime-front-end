@@ -45,7 +45,7 @@ const HeroSection = () => {
                 </div>
             </div>
             <div className="absolute right-0 w-6/12">
-                <Image src="/Images/Leaderboard.svg" alt="GFG logo imported from public directory" width={600} height={600} className="w-full h-auto" />
+                <Image src="/Images/Leaderboard.svg" alt="Leaderboard Illustration" width={0} height={0} sizes="100%" className="w-full h-auto" />
             </div>
         </div>
     );

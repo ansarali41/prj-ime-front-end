@@ -7,8 +7,28 @@ const EmployeProductivitySection = () => {
             <div className="flex flex-col lg:flex-row justify-between gap-8 lg:gap-20 pt-20">
                 <div className="w-full lg:w-3/6 flex items-center justify-center lg:justify-start">
                     <div className="relative flex items-center">
-                        <Image src="/Images/Screen 2.svg" alt="Productivity Screen 1" width={270} height={344} className="w-[16.875rem] h-[21.5rem] relative z-10" priority />
-                        <Image src="/Images/Screen 1.svg" alt="Productivity Screen 2" width={291} height={630} className="w-[18.188rem] h-[39.375rem] relative -left-11" priority />
+                        <Image
+                            src="/Images/Screen 2.svg"
+                            alt="Productivity Screen 1"
+                            width={0}
+                            height={0}
+                            sizes="100%"
+                            className="w-[16.875rem] h-[21.5rem] relative z-10"
+                            style={{ width: '16.875rem', height: '21.5rem' }}
+                            priority
+                            quality={100}
+                        />
+                        <Image
+                            src="/Images/Screen 1.svg"
+                            alt="Productivity Screen 2"
+                            width={0}
+                            height={0}
+                            sizes="100%"
+                            className="w-[18.188rem] h-[39.375rem] relative -left-11"
+                            style={{ width: '18.188rem', height: '39.375rem' }}
+                            priority
+                            quality={100}
+                        />
                     </div>
                 </div>
 

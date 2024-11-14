@@ -30,9 +30,10 @@ const EmployeOrganizationSection = () => {
                 </div>
                 <Image
                     src="/Images/OrganizationCvrImg.svg"
-                    alt="GFG logo imported from public directory"
-                    width={100}
-                    height={100}
+                    alt="Organization Illustration"
+                    width={0}
+                    height={0}
+                    sizes="100%"
                     className="w-[32.25rem] h-[44.12rem] relative -top-16 -right-16"
                 />
             </div>

@@ -35,10 +35,20 @@ const IntegrateOrganizationSection = () => {
                     <div className="w-5/12">
                         <Image
                             src="/Images/integrateOrganization.svg"
-                            alt="GFG logo imported from public directory"
-                            width={1000}
-                            height={1000}
+                            alt="Organization Integration Illustration"
+                            width={0}
+                            height={0}
+                            sizes="768px"
                             className="w-[48rem] h-[48rem] scale-125 relative -bottom-28 -right-9"
+                            style={{
+                                width: '48rem',
+                                height: '48rem',
+                                transform: 'scale(1.25)',
+                                position: 'relative',
+                                bottom: '-7rem',
+                                right: '-2.25rem',
+                            }}
+                            quality={100}
                         />
                     </div>
                 </div>

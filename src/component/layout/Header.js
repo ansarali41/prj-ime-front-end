@@ -29,12 +29,12 @@ const Header = () => {
         <div className="w-full h-[5.75rem] py-4 flex flex-col items-center border-b border-[rgba(0,0,0,0.2)]">
             <div className="w-full max-w-[1920px] mx-auto px-8 lg:px-24 h-full flex justify-between ">
                 <Link href="/" className="w-1/12 flex items-center">
-                    <Image src="/Images/Logo.svg" alt="GFG logo imported from public directory" width={100} height={100} className="w-[8.5rem] h-[3.25rem] " />
+                    <Image src="/Images/Logo.svg" alt="GFG logo imported from public directory" width={0} height={0} sizes="100%" className="w-[8.5rem] h-[3.25rem]" />
                 </Link>
 
-                <div className="w-5/12 flex  justify-start items-center gap-14 font-notoSans">
+                <div className="w-4/12 flex  justify-start items-center gap-14 font-notoSans">
                     <DropDown
-                        button={<div className="text-black font-semibold text-lg leading-5 cursor-pointer uppercase font-notoSans">Solution</div>}
+                        button={<span className="text-black font-semibold text-[18px] leading-[20px] cursor-pointer uppercase font-notoSans">Solution</span>}
                         options={options}
                         direction="top-8 right-0 origin-top-right"
                     />

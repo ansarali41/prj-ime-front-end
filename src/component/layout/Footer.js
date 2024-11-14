@@ -34,7 +34,7 @@ const Footer = () => {
                 <div className="w-full px-32 h-full flex justify-between relative ">
                     <div className="flex justify-center items-center gap-4">
                         <DropDown
-                            button={<h2 className="text-black font-semibold text-lg cursor-pointer uppercase">Solution</h2>}
+                            button={<span className="text-black font-semibold text-[18px] leading-[20px] cursor-pointer uppercase font-notoSans">Solution</span>}
                             options={options}
                             direction="bottom-10 left-0 origin-bottom-left"
                         />
@@ -53,10 +53,10 @@ const Footer = () => {
             <div className="w-full px-32 flex justify-between h-[5.5rem] items-center ">
                 <div className="flex w-1/2 items-center gap-6">
                     <a href="https://www.youtube.com/@iMe_Life" target="_blank">
-                        <Image src="/Images/youtube.svg" alt="" width={100} height={100} className="w-[1.141rem] h-[1.141rem] cursor-pointer" />
+                        <Image src="/Images/youtube.svg" alt="" width={0} height={0} sizes="100%" className="w-[1.141rem] h-[1.141rem] cursor-pointer" />
                     </a>
                     <a href="https://www.linkedin.com/company/ime-life/" target="_blank">
-                        <Image src="/Images/LinkedIn.svg" alt="" width={100} height={100} className="w-[1.141rem] h-[1.141rem] cursor-pointer" />
+                        <Image src="/Images/LinkedIn.svg" alt="" width={0} height={0} sizes="100%" className="w-[1.141rem] h-[1.141rem] cursor-pointer" />
                     </a>
                 </div>
                 <div className="w-1/2 flex flex-col justify-end items-end gap-3">

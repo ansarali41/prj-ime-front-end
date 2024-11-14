@@ -40,7 +40,7 @@ const FeaturesSection = () => {
                         </button>
                     </div>
                     <div className="w-full lg:w-8/12">
-                        <Image src="/Images/employerFeature.svg" alt="employerFeature" width={700} height={700} className="w-full h-auto object-contain " priority />
+                        <Image src="/Images/employerFeature.svg" alt="employerFeature" width={0} height={0} sizes="100%" className="w-full h-auto object-contain " priority />
                     </div>
                 </div>
 
@@ -61,7 +61,7 @@ const FeaturesSection = () => {
                         </button>
                     </div>
                     <div className="w-full lg:w-8/12">
-                        <Image src="/Images/employeeFeature.svg" alt="employeeFeature" width={700} height={700} className="w-full h-auto object-contain " priority />
+                        <Image src="/Images/employeeFeature.svg" alt="employeeFeature" width={0} height={0} sizes="100%" className="w-full h-auto object-contain " priority />
                     </div>
                 </div>
             </div>
