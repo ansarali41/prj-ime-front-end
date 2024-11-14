@@ -21,7 +21,9 @@ const DropDown = ({ button, options, direction }) => {
                             key={optIndex}
                             className={({ active }) => `relative select-none py-2 px-4 ${active ? 'bg-primary/10 text-primary' : 'text-gray-900'}`}
                         >
-                            <button className="w-full block truncate font-medium text-left font-lato">{option?.label}</button>
+                            <button className="w-full block truncate font-medium text-left font-lato hover:flex  hover:items-center hover:rounded-xl hover:text-white hover:bg-theme-gradient">
+                                {option?.label}
+                            </button>
                         </Menu.Item>
                     ))}
                 </Menu.Items>

@@ -34,7 +34,7 @@ const Header = () => {
 
                 <div className="w-5/12 flex  justify-start items-center gap-14 font-notoSans">
                     <DropDown
-                        button={<h2 className="text-black font-semibold text-lg cursor-pointer uppercase">Solution</h2>}
+                        button={<div className="text-black font-semibold text-lg leading-5 cursor-pointer uppercase font-notoSans">Solution</div>}
                         options={options}
                         direction="top-8 right-0 origin-top-right"
                     />
@@ -60,12 +60,6 @@ const Header = () => {
           </Link> */}
                 </div>
                 <div className="flex justify-center items-center gap-4">
-                    {/* <DropDown
-                        button={<h2 className="text-black font-semibold text-lg cursor-pointer uppercase">Solution</h2>}
-                        options={options}
-                        direction="top-8 right-0 origin-top-right"
-                    /> */}
-
                     <button
                         onClick={() => dispatch(setEnquiryModal(true))}
                         className="font-notoSans font-semibold uppercase w-[11.25rem] h-12 text-base flex gap-2 justify-center items-center rounded-xl text-white bg-theme-gradient"
