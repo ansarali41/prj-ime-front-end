@@ -3,19 +3,29 @@ import Image from 'next/image';
 
 const EmployerESGSection = () => {
     return (
-        <div className="w-full h-auto flex justify-center items-center">
-            <div className="w-2/3 h-full flex">
-                <div className="flex h-full flex-col gap-8 w-1/2 pt-32">
-                    <h1 className="font-semibold text-5xl leading-[50px]">
+        <div className="w-full max-w-[1440px] mx-auto px-8 lg:px-24">
+            <div className="flex flex-col lg:flex-row justify-between items-center">
+                <div className="w-full lg:w-5/12 flex flex-col gap-8 lg:gap-10">
+                    <h1 className="text-[48px] font-semibold leading-[50px]">
                         ESG/CSRD <br /> Alignment
                     </h1>
-                    <p className="font-medium text-xl leading-[33px] w-5/6">
+                    <p className="font-medium text-lg lg:text-xl leading-relaxed lg:leading-[33px] w-full font-satoshi opacity-50">
                         iMe actively promotes staff well-being and burnout reduction, in line with business sustainability efforts and meeting ESG standards and CSRD. By promoting
                         a healthy, balanced workplace, the platform assists firms in demonstrating a commitment to social responsibility and long-term employee care.
                     </p>
                 </div>
-                <div className="w-1/2 flex items-center justify-center relative top-10">
-                    <Image src="/Images/ESGCvrImg.svg" alt="ESG and CSRD alignment illustration" width={1000} height={1000} className="relative -top-10" priority />
+
+                <div className="w-full lg:w-7/12 flex items-center justify-center lg:justify-start">
+                    <Image
+                        src="/Images/ESGCvrImg.svg"
+                        alt="Gamification Interface 1"
+                        width={0}
+                        height={0}
+                        sizes="100%"
+                        className="w-full lg:w-[750px] h-auto relative z-10"
+                        priority
+                        quality={100}
+                    />
                 </div>
             </div>
         </div>

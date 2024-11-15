@@ -60,7 +60,6 @@ const EmployeFeatureSection = () => {
                     </div>
                 </div>
             </div>
-            ;
         </>
     );
 };
