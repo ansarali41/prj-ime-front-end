@@ -32,9 +32,9 @@ const Header = () => {
                     <Image src="/Images/Logo.svg" alt="GFG logo imported from public directory" width={0} height={0} sizes="100%" className="w-[8.5rem] h-[3.25rem]" />
                 </Link>
 
-                <div className="w-4/12 flex  justify-start items-center gap-14 font-notoSans">
+                <div className="w-4/12 flex justify-start items-center gap-14 font-notoSans">
                     <DropDown
-                        button={<span className="text-black font-semibold text-[18px] leading-[20px] cursor-pointer uppercase font-notoSans">Solution</span>}
+                        button={<span className="text-black font-semibold text-[22px] leading-[24px] cursor-pointer uppercase font-notoSans">Solution</span>}
                         options={options}
                         direction="top-8 right-0 origin-top-right"
                     />

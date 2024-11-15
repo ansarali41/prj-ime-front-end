@@ -34,7 +34,7 @@ const Footer = () => {
                 <div className="w-full px-32 h-full flex justify-between relative ">
                     <div className="flex justify-center items-center gap-4 text-black font-semibold text-[18px] leading-[20px] cursor-pointer uppercase font-notoSans">
                         <DropDown
-                            button={<span className="text-black font-semibold text-[18px] leading-[20px] cursor-pointer uppercase font-notoSans">Solution</span>}
+                            button={<span className="text-black font-semibold text-[22px] leading-[24px] cursor-pointer uppercase font-notoSans mt-1">Solution</span>}
                             options={options}
                             direction="bottom-10 left-0 origin-bottom-left"
                         />
