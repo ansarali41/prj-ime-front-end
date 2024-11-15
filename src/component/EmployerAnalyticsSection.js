@@ -4,13 +4,22 @@ import Image from 'next/image';
 const EmployerAnalyticsSection = () => {
     return (
         <div className="w-full  h-auto flex justify-center items-center">
-            <div className="w-2/3 h-full flex  gap-40">
-                <div className="w-3/6 flex items-center">
-                    <Image src="/Images/AnalyticsCvrImg.svg" alt="GFG logo imported from public directory" width={1000} height={1000} className="relative -top-10" />
+            <div className="w-2/3 h-full flex items-center ">
+                <div className="w-7/12">
+                    <Image
+                        src="/Images/productivity-tools.svg"
+                        alt="GFG logo imported from public directory"
+                        width={1000}
+                        height={1000}
+                        className="relative -left-16 -top-4 w-full lg:w-[750px]"
+                    />
                 </div>
-                <div className="flex h-full flex-col gap-10  w-3/6 pt-20">
-                    <h1 className="font-semibold text-5xl leading-[50px] ">Real-time Analytics / Preemptive Tool</h1>
-                    <p className="font-medium text-xl leading-[33px] w-5/6">
+                <div className="w-full lg:w-5/12 flex flex-col gap-10">
+                    <h1 className="font-semibold text-5xl leading-[50px]">
+                        Real-time Analytics /<br />
+                        Preemptive Tool
+                    </h1>
+                    <p className="font-medium text-lg lg:text-xl leading-relaxed lg:leading-[33px] w-full lg:w-5/6 font-satoshi opacity-50">
                         Real-time analytics cater to practical insights into possible causes of stress, allowing for early interventions that reduce burnout and promote a healthy
                         work environment. This method decreases turnover while simultaneously driving sustained productivity and stronger team involvement.
                     </p>

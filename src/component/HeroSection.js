@@ -27,7 +27,7 @@ const HeroSection = () => {
                         <span className="bg-text-gradient bg-clip-text text-transparent"> iMe!</span>
                     </h1>
 
-                    <p className="font-normal text-lg leading-[28px] text-left">
+                    <p className="font-normal text-lg leading-[28px] text-left mb-3">
                         Workplace well-being gaps are quietly undermining your organization&apos;s growth. Poor employee lifestyle choices contribute to almost $2 trillion in
                         annual losses from work-related stress, low productivity, and missed days due to chronic conditions. When employees struggle with stress, lack of work-life
                         balance, or personal well-being challenges, productivity drops and turnover rises.
