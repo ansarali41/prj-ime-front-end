@@ -3,8 +3,8 @@ import { Menu, Transition } from '@headlessui/react';
 
 const DropDown = ({ button, options, direction }) => {
     return (
-        <Menu as="div" className="relative z-[999] ">
-            <Menu.Button>{button}</Menu.Button>
+        <Menu as="div" className="relative z-[999] text-black font-semibold text-[18px] leading-[20px] cursor-pointer uppercase font-notoSans">
+            <Menu.Button className="text-black font-semibold text-[18px] leading-[20px] cursor-pointer uppercase font-notoSans">{button}</Menu.Button>
             <Transition
                 as={Fragment}
                 enter="transition ease-out duration-100"

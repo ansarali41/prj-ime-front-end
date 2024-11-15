@@ -7,11 +7,14 @@ const EmployerAnalyticsSection = () => {
             <div className="w-2/3 h-full flex items-center ">
                 <div className="w-7/12">
                     <Image
-                        src="/Images/productivity-tools.svg"
+                        src="/Images/tools.jpg"
                         alt="GFG logo imported from public directory"
-                        width={1000}
-                        height={1000}
+                        width={0}
+                        height={0}
+                        sizes="100%"
                         className="relative -left-16 -top-4 w-full lg:w-[750px]"
+                        priority
+                        quality={100}
                     />
                 </div>
                 <div className="w-full lg:w-5/12 flex flex-col gap-10">

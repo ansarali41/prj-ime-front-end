@@ -17,7 +17,7 @@ const EmployerESGSection = () => {
 
                 <div className="w-full lg:w-7/12 flex items-center justify-center lg:justify-start">
                     <Image
-                        src="/Images/ESGCvrImg.svg"
+                        src="/Images/alignment.jpg"
                         alt="Gamification Interface 1"
                         width={0}
                         height={0}

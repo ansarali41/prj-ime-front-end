@@ -5,7 +5,7 @@ const EmployerIntegrationSection = () => {
     return (
         <div className="w-full max-w-[1440px] mx-auto px-8 lg:px-24">
             <div className="flex  py-20">
-                <div className="w-full lg:w-[45%] flex flex-col gap-8 lg:gap-10 lg:pt-32">
+                <div className="w-full lg:w-[46%] flex flex-col gap-8 lg:gap-10 lg:pt-32">
                     <h1 className="text-[48px] font-semibold leading-[50px]">
                         Seamless <br /> Integration
                     </h1>
@@ -16,14 +16,14 @@ const EmployerIntegrationSection = () => {
                     </p>
                 </div>
 
-                <div className="w-full lg:w-[55%]">
+                <div className="w-full lg:w-[54%]">
                     <Image
-                        src="/Images/Dashboard.svg"
+                        src="/Images/integration.jpg"
                         alt="Dashboard Illustration"
                         width={0}
                         height={0}
                         sizes="100%"
-                        className="w-full lg:w-[729px] h-auto object-contain"
+                        className="w-full lg:w-[719px] object-contain"
                         priority
                         quality={100}
                     />
